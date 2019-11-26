@@ -1,0 +1,333 @@
+2019-11-19 20:38:51,246 - Starting DishsellApplication on chenyonghuandeMacBook-Pro.local with PID 46136 (started by cyh in /Users/cyh/Documents/code/java/java项目/dishsell)
+2019-11-19 20:38:51,248 - No active profile set, falling back to default profiles: default
+2019-11-19 20:38:51,802 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-19 20:38:51,887 - Finished Spring Data repository scanning in 74ms. Found 4 repository interfaces.
+2019-11-19 20:38:52,153 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a66e299e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 20:38:52,464 - Tomcat initialized with port(s): 8080 (http)
+2019-11-19 20:38:52,482 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-19 20:38:52,504 - Starting service [Tomcat]
+2019-11-19 20:38:52,505 - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-11-19 20:38:52,620 - Initializing Spring embedded WebApplicationContext
+2019-11-19 20:38:52,620 - Root WebApplicationContext: initialization completed in 1342 ms
+2019-11-19 20:38:52,754 - HikariPool-1 - Starting...
+2019-11-19 20:38:52,898 - HikariPool-1 - Start completed.
+2019-11-19 20:38:52,955 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-19 20:38:53,027 - HHH000412: Hibernate Core {5.3.9.Final}
+2019-11-19 20:38:53,028 - HHH000206: hibernate.properties not found
+2019-11-19 20:38:53,173 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-19 20:38:53,317 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-19 20:38:53,925 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-19 20:38:54,888 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-19 20:38:54,932 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-19 20:38:55,124 - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-19 20:38:55,146 - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2019-11-19 20:38:55,150 - Started DishsellApplication in 4.235 seconds (JVM running for 9.835)
+2019-11-19 20:39:46,346 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-19 20:39:46,347 - Initializing Servlet 'dispatcherServlet'
+2019-11-19 20:39:46,356 - Completed initialization in 9 ms
+2019-11-19 20:39:46,412 - HHH000397: Using ASTQueryTranslatorFactory
+2019-11-19 20:40:21,635 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-19 20:40:21,636 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-19 20:40:21,640 - HikariPool-1 - Shutdown initiated...
+2019-11-19 20:40:21,646 - HikariPool-1 - Shutdown completed.
+2019-11-19 20:49:11,825 - Starting DishsellApplication on chenyonghuandeMacBook-Pro.local with PID 46408 (started by cyh in /Users/cyh/Documents/code/java/java项目/dishsell)
+2019-11-19 20:49:11,828 - No active profile set, falling back to default profiles: default
+2019-11-19 20:49:12,343 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-19 20:49:12,408 - Finished Spring Data repository scanning in 55ms. Found 4 repository interfaces.
+2019-11-19 20:49:12,658 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$30051fe3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 20:49:12,932 - Tomcat initialized with port(s): 8080 (http)
+2019-11-19 20:49:12,945 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-19 20:49:12,953 - Starting service [Tomcat]
+2019-11-19 20:49:12,953 - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-11-19 20:49:13,087 - Initializing Spring embedded WebApplicationContext
+2019-11-19 20:49:13,087 - Root WebApplicationContext: initialization completed in 1233 ms
+2019-11-19 20:49:13,239 - HikariPool-1 - Starting...
+2019-11-19 20:49:13,350 - HikariPool-1 - Start completed.
+2019-11-19 20:49:13,407 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-19 20:49:13,486 - HHH000412: Hibernate Core {5.3.9.Final}
+2019-11-19 20:49:13,488 - HHH000206: hibernate.properties not found
+2019-11-19 20:49:13,635 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-19 20:49:13,772 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-19 20:49:14,375 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-19 20:49:15,230 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-19 20:49:15,263 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-19 20:49:15,445 - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-19 20:49:15,466 - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2019-11-19 20:49:15,469 - Started DishsellApplication in 4.001 seconds (JVM running for 9.492)
+2019-11-19 20:51:37,160 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-19 20:51:37,162 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-19 20:51:37,164 - HikariPool-1 - Shutdown initiated...
+2019-11-19 20:51:37,173 - HikariPool-1 - Shutdown completed.
+2019-11-19 20:51:46,391 - Starting DishsellApplication on chenyonghuandeMacBook-Pro.local with PID 46463 (started by cyh in /Users/cyh/Documents/code/java/java项目/dishsell)
+2019-11-19 20:51:46,393 - No active profile set, falling back to default profiles: default
+2019-11-19 20:51:46,891 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-19 20:51:46,957 - Finished Spring Data repository scanning in 58ms. Found 4 repository interfaces.
+2019-11-19 20:51:47,197 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4c2a5260] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 20:51:47,466 - Tomcat initialized with port(s): 8080 (http)
+2019-11-19 20:51:47,478 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-19 20:51:47,487 - Starting service [Tomcat]
+2019-11-19 20:51:47,488 - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-11-19 20:51:47,607 - Initializing Spring embedded WebApplicationContext
+2019-11-19 20:51:47,607 - Root WebApplicationContext: initialization completed in 1186 ms
+2019-11-19 20:51:47,741 - HikariPool-1 - Starting...
+2019-11-19 20:51:47,841 - HikariPool-1 - Start completed.
+2019-11-19 20:51:47,905 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-19 20:51:47,975 - HHH000412: Hibernate Core {5.3.9.Final}
+2019-11-19 20:51:47,976 - HHH000206: hibernate.properties not found
+2019-11-19 20:51:48,111 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-19 20:51:48,227 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-19 20:51:48,774 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-19 20:51:49,562 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-19 20:51:49,597 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-19 20:51:49,774 - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-19 20:51:49,792 - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2019-11-19 20:51:49,795 - Started DishsellApplication in 3.761 seconds (JVM running for 9.189)
+2019-11-19 20:52:37,217 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-19 20:52:37,218 - Initializing Servlet 'dispatcherServlet'
+2019-11-19 20:52:37,226 - Completed initialization in 8 ms
+2019-11-19 20:52:37,355 - HHH000397: Using ASTQueryTranslatorFactory
+2019-11-19 20:56:52,191 - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'orderId' is not present]
+2019-11-19 20:58:25,578 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-19 20:58:25,579 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-19 20:58:25,582 - HikariPool-1 - Shutdown initiated...
+2019-11-19 20:58:25,590 - HikariPool-1 - Shutdown completed.
+2019-11-19 20:58:34,963 - Starting DishsellApplication on chenyonghuandeMacBook-Pro.local with PID 46595 (started by cyh in /Users/cyh/Documents/code/java/java项目/dishsell)
+2019-11-19 20:58:34,965 - No active profile set, falling back to default profiles: default
+2019-11-19 20:58:35,466 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-19 20:58:35,532 - Finished Spring Data repository scanning in 59ms. Found 4 repository interfaces.
+2019-11-19 20:58:35,768 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4edf74b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 20:58:36,026 - Tomcat initialized with port(s): 8080 (http)
+2019-11-19 20:58:36,037 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-19 20:58:36,046 - Starting service [Tomcat]
+2019-11-19 20:58:36,046 - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-11-19 20:58:36,146 - Initializing Spring embedded WebApplicationContext
+2019-11-19 20:58:36,146 - Root WebApplicationContext: initialization completed in 1150 ms
+2019-11-19 20:58:36,271 - HikariPool-1 - Starting...
+2019-11-19 20:58:36,354 - HikariPool-1 - Start completed.
+2019-11-19 20:58:36,415 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-19 20:58:36,481 - HHH000412: Hibernate Core {5.3.9.Final}
+2019-11-19 20:58:36,482 - HHH000206: hibernate.properties not found
+2019-11-19 20:58:36,596 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-19 20:58:36,708 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-19 20:58:37,219 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-19 20:58:37,959 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-19 20:58:37,993 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-19 20:58:38,166 - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-19 20:58:38,187 - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2019-11-19 20:58:38,189 - Started DishsellApplication in 3.577 seconds (JVM running for 9.001)
+2019-11-19 20:59:25,937 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-19 20:59:25,938 - Initializing Servlet 'dispatcherServlet'
+2019-11-19 20:59:25,946 - Completed initialization in 7 ms
+2019-11-19 20:59:26,073 - HHH000397: Using ASTQueryTranslatorFactory
+2019-11-19 21:04:44,300 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-19 21:04:44,302 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-19 21:04:44,306 - HikariPool-1 - Shutdown initiated...
+2019-11-19 21:04:44,325 - HikariPool-1 - Shutdown completed.
+2019-11-19 21:04:52,770 - Starting DishsellApplication on chenyonghuandeMacBook-Pro.local with PID 46719 (started by cyh in /Users/cyh/Documents/code/java/java项目/dishsell)
+2019-11-19 21:04:52,772 - No active profile set, falling back to default profiles: default
+2019-11-19 21:04:53,267 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-19 21:04:53,332 - Finished Spring Data repository scanning in 58ms. Found 4 repository interfaces.
+2019-11-19 21:04:53,566 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a66e299e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 21:04:53,816 - Tomcat initialized with port(s): 8080 (http)
+2019-11-19 21:04:53,826 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-19 21:04:53,835 - Starting service [Tomcat]
+2019-11-19 21:04:53,835 - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-11-19 21:04:53,939 - Initializing Spring embedded WebApplicationContext
+2019-11-19 21:04:53,939 - Root WebApplicationContext: initialization completed in 1138 ms
+2019-11-19 21:04:54,063 - HikariPool-1 - Starting...
+2019-11-19 21:04:54,151 - HikariPool-1 - Start completed.
+2019-11-19 21:04:54,202 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-19 21:04:54,271 - HHH000412: Hibernate Core {5.3.9.Final}
+2019-11-19 21:04:54,273 - HHH000206: hibernate.properties not found
+2019-11-19 21:04:54,381 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-19 21:04:54,484 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-19 21:04:54,987 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-19 21:04:55,688 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-19 21:04:55,730 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-19 21:04:55,908 - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-19 21:04:55,927 - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2019-11-19 21:04:55,930 - Started DishsellApplication in 3.505 seconds (JVM running for 8.931)
+2019-11-19 21:05:15,367 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-19 21:05:15,369 - Initializing Servlet 'dispatcherServlet'
+2019-11-19 21:05:15,381 - Completed initialization in 12 ms
+2019-11-19 21:05:15,483 - HHH000397: Using ASTQueryTranslatorFactory
+2019-11-19 21:05:53,164 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-19 21:05:53,165 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-19 21:05:53,168 - HikariPool-1 - Shutdown initiated...
+2019-11-19 21:05:53,176 - HikariPool-1 - Shutdown completed.
+2019-11-19 21:06:06,014 - Starting DishsellApplication on chenyonghuandeMacBook-Pro.local with PID 46744 (started by cyh in /Users/cyh/Documents/code/java/java项目/dishsell)
+2019-11-19 21:06:06,016 - No active profile set, falling back to default profiles: default
+2019-11-19 21:06:06,562 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-19 21:06:06,630 - Finished Spring Data repository scanning in 61ms. Found 4 repository interfaces.
+2019-11-19 21:06:06,897 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8d825f97] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 21:06:07,185 - Tomcat initialized with port(s): 8080 (http)
+2019-11-19 21:06:07,199 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-19 21:06:07,209 - Starting service [Tomcat]
+2019-11-19 21:06:07,209 - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-11-19 21:06:07,356 - Initializing Spring embedded WebApplicationContext
+2019-11-19 21:06:07,356 - Root WebApplicationContext: initialization completed in 1312 ms
+2019-11-19 21:06:07,482 - HikariPool-1 - Starting...
+2019-11-19 21:06:07,578 - HikariPool-1 - Start completed.
+2019-11-19 21:06:07,625 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-19 21:06:07,680 - HHH000412: Hibernate Core {5.3.9.Final}
+2019-11-19 21:06:07,681 - HHH000206: hibernate.properties not found
+2019-11-19 21:06:07,850 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-19 21:06:07,956 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-19 21:06:08,458 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-19 21:06:09,205 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-19 21:06:09,230 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-19 21:06:09,386 - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-19 21:06:09,403 - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2019-11-19 21:06:09,406 - Started DishsellApplication in 3.746 seconds (JVM running for 9.316)
+2019-11-19 21:06:14,901 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-19 21:06:14,902 - Initializing Servlet 'dispatcherServlet'
+2019-11-19 21:06:14,908 - Completed initialization in 6 ms
+2019-11-19 21:06:38,024 - HHH000397: Using ASTQueryTranslatorFactory
+2019-11-19 21:08:58,851 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-19 21:08:58,852 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-19 21:08:58,859 - HikariPool-1 - Shutdown initiated...
+2019-11-19 21:08:58,873 - HikariPool-1 - Shutdown completed.
+2019-11-19 21:09:12,364 - Starting DishsellApplication on chenyonghuandeMacBook-Pro.local with PID 46808 (started by cyh in /Users/cyh/Documents/code/java/java项目/dishsell)
+2019-11-19 21:09:12,366 - No active profile set, falling back to default profiles: default
+2019-11-19 21:09:12,847 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-19 21:09:12,912 - Finished Spring Data repository scanning in 58ms. Found 4 repository interfaces.
+2019-11-19 21:09:13,169 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6d1f69a0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 21:09:13,413 - Tomcat initialized with port(s): 8080 (http)
+2019-11-19 21:09:13,424 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-19 21:09:13,432 - Starting service [Tomcat]
+2019-11-19 21:09:13,432 - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-11-19 21:09:13,535 - Initializing Spring embedded WebApplicationContext
+2019-11-19 21:09:13,535 - Root WebApplicationContext: initialization completed in 1146 ms
+2019-11-19 21:09:13,657 - HikariPool-1 - Starting...
+2019-11-19 21:09:13,744 - HikariPool-1 - Start completed.
+2019-11-19 21:09:13,793 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-19 21:09:13,861 - HHH000412: Hibernate Core {5.3.9.Final}
+2019-11-19 21:09:13,862 - HHH000206: hibernate.properties not found
+2019-11-19 21:09:13,989 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-19 21:09:14,097 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-19 21:09:14,592 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-19 21:09:15,372 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-19 21:09:15,408 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-19 21:09:15,688 - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-19 21:09:15,705 - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2019-11-19 21:09:15,708 - Started DishsellApplication in 3.642 seconds (JVM running for 9.088)
+2019-11-19 21:09:22,038 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-19 21:09:22,039 - Initializing Servlet 'dispatcherServlet'
+2019-11-19 21:09:22,046 - Completed initialization in 7 ms
+2019-11-19 21:09:22,167 - HHH000397: Using ASTQueryTranslatorFactory
+2019-11-19 21:13:21,752 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-19 21:13:21,753 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-19 21:13:21,756 - HikariPool-1 - Shutdown initiated...
+2019-11-19 21:13:21,763 - HikariPool-1 - Shutdown completed.
+2019-11-19 21:13:31,761 - Starting DishsellApplication on chenyonghuandeMacBook-Pro.local with PID 46891 (started by cyh in /Users/cyh/Documents/code/java/java项目/dishsell)
+2019-11-19 21:13:31,764 - No active profile set, falling back to default profiles: default
+2019-11-19 21:13:32,223 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-19 21:13:32,291 - Finished Spring Data repository scanning in 60ms. Found 4 repository interfaces.
+2019-11-19 21:13:32,529 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$63ad03db] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 21:13:32,781 - Tomcat initialized with port(s): 8080 (http)
+2019-11-19 21:13:32,791 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-19 21:13:32,799 - Starting service [Tomcat]
+2019-11-19 21:13:32,800 - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-11-19 21:13:32,907 - Initializing Spring embedded WebApplicationContext
+2019-11-19 21:13:32,907 - Root WebApplicationContext: initialization completed in 1116 ms
+2019-11-19 21:13:33,026 - HikariPool-1 - Starting...
+2019-11-19 21:13:33,110 - HikariPool-1 - Start completed.
+2019-11-19 21:13:33,159 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-19 21:13:33,227 - HHH000412: Hibernate Core {5.3.9.Final}
+2019-11-19 21:13:33,228 - HHH000206: hibernate.properties not found
+2019-11-19 21:13:33,347 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-19 21:13:33,452 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-19 21:13:33,954 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-19 21:13:34,706 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-19 21:13:34,737 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-19 21:13:34,989 - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-19 21:13:35,008 - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2019-11-19 21:13:35,011 - Started DishsellApplication in 3.558 seconds (JVM running for 8.978)
+2019-11-19 21:16:51,717 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-19 21:16:51,719 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-19 21:16:51,724 - HikariPool-1 - Shutdown initiated...
+2019-11-19 21:16:51,745 - HikariPool-1 - Shutdown completed.
+2019-11-19 21:17:00,078 - Starting DishsellApplication on chenyonghuandeMacBook-Pro.local with PID 46962 (started by cyh in /Users/cyh/Documents/code/java/java项目/dishsell)
+2019-11-19 21:17:00,080 - No active profile set, falling back to default profiles: default
+2019-11-19 21:17:00,476 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-19 21:17:00,528 - Finished Spring Data repository scanning in 47ms. Found 4 repository interfaces.
+2019-11-19 21:17:00,731 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e6b32090] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 21:17:00,940 - Tomcat initialized with port(s): 8080 (http)
+2019-11-19 21:17:00,952 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-19 21:17:00,960 - Starting service [Tomcat]
+2019-11-19 21:17:00,960 - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-11-19 21:17:01,050 - Initializing Spring embedded WebApplicationContext
+2019-11-19 21:17:01,050 - Root WebApplicationContext: initialization completed in 947 ms
+2019-11-19 21:17:01,141 - HikariPool-1 - Starting...
+2019-11-19 21:17:01,208 - HikariPool-1 - Start completed.
+2019-11-19 21:17:01,240 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-19 21:17:01,278 - HHH000412: Hibernate Core {5.3.9.Final}
+2019-11-19 21:17:01,279 - HHH000206: hibernate.properties not found
+2019-11-19 21:17:01,366 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-19 21:17:01,449 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-19 21:17:01,798 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-19 21:17:02,299 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-19 21:17:02,326 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-19 21:17:02,510 - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-19 21:17:02,528 - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2019-11-19 21:17:02,530 - Started DishsellApplication in 2.709 seconds (JVM running for 8.108)
+2019-11-19 21:17:06,647 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-19 21:17:06,648 - Initializing Servlet 'dispatcherServlet'
+2019-11-19 21:17:06,655 - Completed initialization in 7 ms
+2019-11-19 21:17:06,767 - HHH000397: Using ASTQueryTranslatorFactory
+2019-11-19 21:18:03,111 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-19 21:18:03,111 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-19 21:18:03,113 - HikariPool-1 - Shutdown initiated...
+2019-11-19 21:18:03,122 - HikariPool-1 - Shutdown completed.
+2019-11-19 21:18:11,235 - Starting DishsellApplication on chenyonghuandeMacBook-Pro.local with PID 46987 (started by cyh in /Users/cyh/Documents/code/java/java项目/dishsell)
+2019-11-19 21:18:11,237 - No active profile set, falling back to default profiles: default
+2019-11-19 21:18:11,666 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-19 21:18:11,727 - Finished Spring Data repository scanning in 56ms. Found 4 repository interfaces.
+2019-11-19 21:18:11,955 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$976638a3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-19 21:18:12,169 - Tomcat initialized with port(s): 8080 (http)
+2019-11-19 21:18:12,178 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-19 21:18:12,195 - Starting service [Tomcat]
+2019-11-19 21:18:12,195 - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-11-19 21:18:12,287 - Initializing Spring embedded WebApplicationContext
+2019-11-19 21:18:12,287 - Root WebApplicationContext: initialization completed in 1025 ms
+2019-11-19 21:18:12,400 - HikariPool-1 - Starting...
+2019-11-19 21:18:12,472 - HikariPool-1 - Start completed.
+2019-11-19 21:18:12,511 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-19 21:18:12,567 - HHH000412: Hibernate Core {5.3.9.Final}
+2019-11-19 21:18:12,568 - HHH000206: hibernate.properties not found
+2019-11-19 21:18:12,682 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-19 21:18:12,765 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-19 21:18:13,202 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-19 21:18:13,837 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-19 21:18:13,859 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-19 21:18:14,055 - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-19 21:18:14,070 - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2019-11-19 21:18:14,073 - Started DishsellApplication in 3.123 seconds (JVM running for 8.504)
+2019-11-19 21:18:18,110 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-19 21:18:18,110 - Initializing Servlet 'dispatcherServlet'
+2019-11-19 21:18:18,116 - Completed initialization in 6 ms
+2019-11-19 21:18:18,194 - HHH000397: Using ASTQueryTranslatorFactory
+2019-11-19 21:26:22,188 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-19 21:26:22,189 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-19 21:26:22,191 - HikariPool-1 - Shutdown initiated...
+2019-11-19 21:26:22,200 - HikariPool-1 - Shutdown completed.

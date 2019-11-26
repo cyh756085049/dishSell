@@ -1,0 +1,515 @@
+2019-11-24 00:02:54,744 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-24 00:02:54,747 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-24 00:02:54,751 - HikariPool-1 - Shutdown initiated...
+2019-11-24 00:02:54,772 - HikariPool-1 - Shutdown completed.
+2019-11-24 00:03:03,143 - Starting DishsellApplication on chenyonghuandeMacBook-Pro.local with PID 75500 (started by cyh in /Users/cyh/Documents/code/java/java项目/dishsell)
+2019-11-24 00:03:03,144 - No active profile set, falling back to default profiles: default
+2019-11-24 00:03:03,175 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2019-11-24 00:03:03,578 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-24 00:03:03,640 - Finished Spring Data repository scanning in 57ms. Found 5 repository interfaces.
+2019-11-24 00:03:03,879 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$330936a2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-24 00:03:04,085 - Tomcat initialized with port(s): 8080 (http)
+2019-11-24 00:03:04,096 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-24 00:03:04,105 - Starting service [Tomcat]
+2019-11-24 00:03:04,105 - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-11-24 00:03:04,201 - Initializing Spring embedded WebApplicationContext
+2019-11-24 00:03:04,202 - Root WebApplicationContext: initialization completed in 1035 ms
+2019-11-24 00:03:04,300 - HikariPool-1 - Starting...
+2019-11-24 00:03:04,375 - HikariPool-1 - Start completed.
+2019-11-24 00:03:04,414 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-24 00:03:04,457 - HHH000412: Hibernate Core {5.3.9.Final}
+2019-11-24 00:03:04,458 - HHH000206: hibernate.properties not found
+2019-11-24 00:03:04,564 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-24 00:03:04,647 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-24 00:03:05,051 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-24 00:03:05,646 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-24 00:03:05,668 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-24 00:03:05,861 - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-24 00:03:05,878 - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2019-11-24 00:03:05,880 - Started DishsellApplication in 3.03 seconds (JVM running for 8.431)
+2019-11-24 00:07:08,593 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-24 00:07:08,594 - Initializing Servlet 'dispatcherServlet'
+2019-11-24 00:07:08,606 - Completed initialization in 12 ms
+2019-11-24 00:07:08,635 - [微信网页授权] 获取code, result = https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx94681a8f915ce849&redirect_uri=http%3A%2F%2Frti2w6.natappfree.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.imooc.com&connect_redirect=1#wechat_redirect
+2019-11-24 00:07:37,038 - [微信网页授权] 获取code, result = https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx94681a8f915ce849&redirect_uri=http%3A%2F%2Frti2w6.natappfree.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.imooc.com&connect_redirect=1#wechat_redirect
+2019-11-24 00:08:06,142 - [微信网页授权] 获取code, result = https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx94681a8f915ce849&redirect_uri=http%3A%2F%2Frti2w6.natappfree.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.imooc.com&connect_redirect=1#wechat_redirect
+2019-11-24 00:08:08,941 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-24 00:08:08,942 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-24 00:08:08,945 - HikariPool-1 - Shutdown initiated...
+2019-11-24 00:08:08,954 - HikariPool-1 - Shutdown completed.
+2019-11-24 00:08:16,771 - Starting DishsellApplication on chenyonghuandeMacBook-Pro.local with PID 75628 (started by cyh in /Users/cyh/Documents/code/java/java项目/dishsell)
+2019-11-24 00:08:16,772 - No active profile set, falling back to default profiles: default
+2019-11-24 00:08:16,807 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2019-11-24 00:08:17,229 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-24 00:08:17,292 - Finished Spring Data repository scanning in 58ms. Found 5 repository interfaces.
+2019-11-24 00:08:17,520 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a4fe361c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-24 00:08:17,746 - Tomcat initialized with port(s): 8080 (http)
+2019-11-24 00:08:17,756 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-24 00:08:17,764 - Starting service [Tomcat]
+2019-11-24 00:08:17,765 - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-11-24 00:08:17,863 - Initializing Spring embedded WebApplicationContext
+2019-11-24 00:08:17,863 - Root WebApplicationContext: initialization completed in 1064 ms
+2019-11-24 00:08:17,968 - HikariPool-1 - Starting...
+2019-11-24 00:08:18,046 - HikariPool-1 - Start completed.
+2019-11-24 00:08:18,090 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-24 00:08:18,143 - HHH000412: Hibernate Core {5.3.9.Final}
+2019-11-24 00:08:18,145 - HHH000206: hibernate.properties not found
+2019-11-24 00:08:18,255 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-24 00:08:18,340 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-24 00:08:18,795 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-24 00:08:19,441 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-24 00:08:19,467 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-24 00:08:19,675 - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-24 00:08:19,693 - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2019-11-24 00:08:19,696 - Started DishsellApplication in 3.212 seconds (JVM running for 8.607)
+2019-11-24 00:09:02,211 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-24 00:09:02,211 - Initializing Servlet 'dispatcherServlet'
+2019-11-24 00:09:02,217 - Completed initialization in 6 ms
+2019-11-24 00:09:02,239 - [微信网页授权] 获取code, result = https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx94681a8f915ce849&redirect_uri=http%3A%2F%2Frti2w6.natappfree.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.imooc.com&connect_redirect=1#wechat_redirect
+2019-11-24 00:09:33,811 - [微信网页授权] 获取code, result = https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx94681a8f915ce849&redirect_uri=http%3A%2F%2Frti2w6.natappfree.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.imooc.com&connect_redirect=1#wechat_redirect
+2019-11-24 00:09:43,681 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-24 00:09:43,682 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-24 00:09:43,685 - HikariPool-1 - Shutdown initiated...
+2019-11-24 00:09:43,697 - HikariPool-1 - Shutdown completed.
+2019-11-24 00:09:55,169 - Starting DishsellApplication on chenyonghuandeMacBook-Pro.local with PID 75668 (started by cyh in /Users/cyh/Documents/code/java/java项目/dishsell)
+2019-11-24 00:09:55,170 - No active profile set, falling back to default profiles: default
+2019-11-24 00:09:55,188 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2019-11-24 00:09:55,622 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-24 00:09:55,687 - Finished Spring Data repository scanning in 59ms. Found 5 repository interfaces.
+2019-11-24 00:09:55,938 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$da5536c7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-24 00:09:56,176 - Tomcat initialized with port(s): 8080 (http)
+2019-11-24 00:09:56,186 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-24 00:09:56,194 - Starting service [Tomcat]
+2019-11-24 00:09:56,195 - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-11-24 00:09:56,300 - Initializing Spring embedded WebApplicationContext
+2019-11-24 00:09:56,301 - Root WebApplicationContext: initialization completed in 1106 ms
+2019-11-24 00:09:56,421 - HikariPool-1 - Starting...
+2019-11-24 00:09:56,495 - HikariPool-1 - Start completed.
+2019-11-24 00:09:56,529 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-24 00:09:56,575 - HHH000412: Hibernate Core {5.3.9.Final}
+2019-11-24 00:09:56,575 - HHH000206: hibernate.properties not found
+2019-11-24 00:09:56,684 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-24 00:09:56,779 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-24 00:09:57,207 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-24 00:09:57,880 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-24 00:09:57,903 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-24 00:09:58,126 - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-24 00:09:58,144 - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2019-11-24 00:09:58,147 - Started DishsellApplication in 3.274 seconds (JVM running for 8.808)
+2019-11-24 00:10:09,859 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-24 00:10:09,859 - Initializing Servlet 'dispatcherServlet'
+2019-11-24 00:10:09,866 - Completed initialization in 7 ms
+2019-11-24 00:10:20,651 - [微信网页授权] 获取code, result = https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx94681a8f915ce849&redirect_uri=http%3A%2F%2Frti2w6.natappfree.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.imooc.com&connect_redirect=1#wechat_redirect
+2019-11-24 00:10:49,455 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52s859ms).
+2019-11-24 00:10:51,858 - [微信网页授权] 获取code, result = https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx94681a8f915ce849&redirect_uri=http%3A%2F%2Frti2w6.natappfree.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.imooc.com&connect_redirect=1#wechat_redirect
+2019-11-24 00:13:53,544 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m4s89ms).
+2019-11-24 00:15:37,874 - [微信网页授权] 获取code, result = https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx94681a8f915ce849&redirect_uri=http%3A%2F%2Frti2w6.natappfree.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.imooc.com&connect_redirect=1#wechat_redirect
+2019-11-24 00:16:08,214 - [微信网页授权] 获取code, result = https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx94681a8f915ce849&redirect_uri=http%3A%2F%2Frti2w6.natappfree.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.imooc.com&connect_redirect=1#wechat_redirect
+2019-11-24 00:22:19,392 - [微信网页授权] 获取code, result = https://open.weixin.qq.com/connect/qrconnect?appid=wx94681a8f915ce849&redirect_uri=http%3A%2F%2Frti2w6.natappfree.cc%2Fsell%2Fwechat%2FqrUserInfo&response_type=code&scope=snsapi_login&state=http%3A%2F%2Fwww.imooc.com#wechat_redirect
+2019-11-24 00:22:39,948 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46s361ms).
+2019-11-24 00:23:15,435 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-24 00:23:15,438 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-24 00:23:15,446 - HikariPool-1 - Shutdown initiated...
+2019-11-24 00:23:15,461 - HikariPool-1 - Shutdown completed.
+2019-11-24 10:01:35,206 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2019-11-24 10:01:35,227 - Starting DishsellApplication on chenyonghuandeMacBook-Pro.local with PID 76444 (started by cyh in /Users/cyh/Documents/code/java/java项目/dishsell)
+2019-11-24 10:01:35,229 - No active profile set, falling back to default profiles: default
+2019-11-24 10:01:35,839 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-24 10:01:35,918 - Finished Spring Data repository scanning in 71ms. Found 5 repository interfaces.
+2019-11-24 10:01:36,207 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d4b9c6a1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-24 10:01:36,520 - Tomcat initialized with port(s): 8080 (http)
+2019-11-24 10:01:36,532 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-24 10:01:36,541 - Starting service [Tomcat]
+2019-11-24 10:01:36,542 - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-11-24 10:01:36,668 - Initializing Spring embedded WebApplicationContext
+2019-11-24 10:01:36,669 - Root WebApplicationContext: initialization completed in 1410 ms
+2019-11-24 10:01:36,819 - HikariPool-1 - Starting...
+2019-11-24 10:01:36,932 - HikariPool-1 - Start completed.
+2019-11-24 10:01:36,981 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-24 10:01:37,068 - HHH000412: Hibernate Core {5.3.9.Final}
+2019-11-24 10:01:37,070 - HHH000206: hibernate.properties not found
+2019-11-24 10:01:37,227 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-24 10:01:37,357 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-24 10:01:37,871 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-24 10:01:38,745 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-24 10:01:38,776 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-24 10:01:39,032 - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-24 10:01:39,076 - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2019-11-24 10:01:39,080 - Started DishsellApplication in 4.205 seconds (JVM running for 9.743)
+2019-11-24 10:02:10,987 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-24 10:02:10,987 - Initializing Servlet 'dispatcherServlet'
+2019-11-24 10:02:10,994 - Completed initialization in 7 ms
+2019-11-24 10:02:11,061 - HHH000397: Using ASTQueryTranslatorFactory
+2019-11-24 10:03:36,745 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59s704ms).
+2019-11-24 10:03:36,753 - [微信网页授权] 获取code, result = https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx94681a8f915ce849&redirect_uri=http%3A%2F%2Fvqjtfp.natappfree.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.imooc.com&connect_redirect=1#wechat_redirect
+2019-11-24 10:04:33,128 - [微信网页授权] 获取code, result = https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx94681a8f915ce849&redirect_uri=http%3A%2F%2Fvqjtfp.natappfree.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.imooc.com&connect_redirect=1#wechat_redirect
+2019-11-24 10:06:26,577 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m15s847ms).
+2019-11-24 10:06:26,577 - [微信网页授权] 获取code, result = https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx94681a8f915ce849&redirect_uri=http%3A%2F%2Fvqjtfp.natappfree.cc%2Fsell%2Fwechat%2FuserInfo&response_type=code&scope=snsapi_userinfo&state=http%3A%2F%2Fwww.imooc.com&connect_redirect=1#wechat_redirect
+2019-11-24 10:06:26,634 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-24 10:06:26,635 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-24 10:06:26,638 - HikariPool-1 - Shutdown initiated...
+2019-11-24 10:06:26,656 - HikariPool-1 - Shutdown completed.
+2019-11-24 10:06:36,065 - Starting DishsellApplication on chenyonghuandeMacBook-Pro.local with PID 76562 (started by cyh in /Users/cyh/Documents/code/java/java项目/dishsell)
+2019-11-24 10:06:36,066 - No active profile set, falling back to default profiles: default
+2019-11-24 10:06:36,091 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2019-11-24 10:06:36,581 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-24 10:06:36,650 - Finished Spring Data repository scanning in 63ms. Found 5 repository interfaces.
+2019-11-24 10:06:36,898 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bb4b7b27] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-24 10:06:37,172 - Tomcat initialized with port(s): 8080 (http)
+2019-11-24 10:06:37,184 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-24 10:06:37,192 - Starting service [Tomcat]
+2019-11-24 10:06:37,193 - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-11-24 10:06:37,302 - Initializing Spring embedded WebApplicationContext
+2019-11-24 10:06:37,303 - Root WebApplicationContext: initialization completed in 1211 ms
+2019-11-24 10:06:37,428 - HikariPool-1 - Starting...
+2019-11-24 10:06:37,515 - HikariPool-1 - Start completed.
+2019-11-24 10:06:37,567 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-24 10:06:37,634 - HHH000412: Hibernate Core {5.3.9.Final}
+2019-11-24 10:06:37,636 - HHH000206: hibernate.properties not found
+2019-11-24 10:06:37,761 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-24 10:06:37,875 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-24 10:06:38,392 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-24 10:06:39,134 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-24 10:06:39,170 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-24 10:06:39,442 - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-24 10:06:39,460 - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2019-11-24 10:06:39,463 - Started DishsellApplication in 3.72 seconds (JVM running for 9.151)
+2019-11-24 11:12:13,114 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-24 11:12:13,119 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-24 11:12:13,131 - HikariPool-1 - Shutdown initiated...
+2019-11-24 11:12:13,138 - HikariPool-1 - Shutdown completed.
+2019-11-24 13:27:23,681 - Starting DishsellApplication on chenyonghuandeMacBook-Pro.local with PID 2910 (started by cyh in /Users/cyh/Documents/code/java/java项目/dishsell)
+2019-11-24 13:27:23,683 - No active profile set, falling back to default profiles: default
+2019-11-24 13:27:23,714 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2019-11-24 13:27:24,358 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-24 13:27:24,450 - Finished Spring Data repository scanning in 83ms. Found 5 repository interfaces.
+2019-11-24 13:27:24,736 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d63d485c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-24 13:27:25,056 - Tomcat initialized with port(s): 8080 (http)
+2019-11-24 13:27:25,070 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-24 13:27:25,079 - Starting service [Tomcat]
+2019-11-24 13:27:25,079 - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-11-24 13:27:25,215 - Initializing Spring embedded WebApplicationContext
+2019-11-24 13:27:25,215 - Root WebApplicationContext: initialization completed in 1502 ms
+2019-11-24 13:27:25,352 - HikariPool-1 - Starting...
+2019-11-24 13:27:25,465 - HikariPool-1 - Start completed.
+2019-11-24 13:27:25,521 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-24 13:27:25,593 - HHH000412: Hibernate Core {5.3.9.Final}
+2019-11-24 13:27:25,594 - HHH000206: hibernate.properties not found
+2019-11-24 13:27:25,732 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-24 13:27:25,857 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-24 13:27:26,388 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-24 13:27:27,331 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-24 13:27:27,361 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-24 13:27:27,591 - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-24 13:27:27,610 - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2019-11-24 13:27:27,613 - Started DishsellApplication in 4.401 seconds (JVM running for 10.044)
+2019-11-24 13:27:38,792 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-24 13:27:38,793 - Initializing Servlet 'dispatcherServlet'
+2019-11-24 13:27:38,801 - Completed initialization in 8 ms
+2019-11-24 13:27:38,880 - HHH000397: Using ASTQueryTranslatorFactory
+2019-11-24 14:04:08,959 - [微信网页授权] 获取code, result = https://open.weixin.qq.com/connect/qrconnect?appid=wx94681a8f915ce849&redirect_uri=http%3A%2F%2Fvqjtfp.natappfree.cc%2Fsell%2Fwechat%2FqrUserInfo&response_type=code&scope=snsapi_login&state=http%3A%2F%2Fwww.imooc.com#wechat_redirect
+2019-11-24 15:10:19,744 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-24 15:10:19,746 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-24 15:10:19,791 - HikariPool-1 - Shutdown initiated...
+2019-11-24 15:10:19,797 - HikariPool-1 - Shutdown completed.
+2019-11-24 15:18:37,537 - Starting DishsellApplication on chenyonghuandeMacBook-Pro.local with PID 5295 (started by cyh in /Users/cyh/Documents/code/java/java项目/dishsell)
+2019-11-24 15:18:37,538 - No active profile set, falling back to default profiles: default
+2019-11-24 15:18:37,579 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2019-11-24 15:18:38,114 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-24 15:18:38,115 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-24 15:18:38,197 - Finished Spring Data repository scanning in 76ms. Found 5 repository interfaces.
+2019-11-24 15:18:38,208 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-24 15:18:38,209 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-24 15:18:38,224 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.OrderDetailRepository.
+2019-11-24 15:18:38,224 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.OrderMasterRepository.
+2019-11-24 15:18:38,225 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.ProductCategoryRepository.
+2019-11-24 15:18:38,225 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.ProductInfoRepository.
+2019-11-24 15:18:38,225 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.SellerInfoRepository.
+2019-11-24 15:18:38,225 - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-11-24 15:18:38,491 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d31d1e19] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-24 15:18:38,845 - Tomcat initialized with port(s): 8080 (http)
+2019-11-24 15:18:38,856 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-24 15:18:38,864 - Starting service [Tomcat]
+2019-11-24 15:18:38,865 - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-11-24 15:18:38,989 - Initializing Spring embedded WebApplicationContext
+2019-11-24 15:18:38,989 - Root WebApplicationContext: initialization completed in 1423 ms
+2019-11-24 15:18:39,121 - HikariPool-1 - Starting...
+2019-11-24 15:18:39,193 - HikariPool-1 - Start completed.
+2019-11-24 15:18:39,236 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-24 15:18:39,282 - HHH000412: Hibernate Core {5.3.9.Final}
+2019-11-24 15:18:39,283 - HHH000206: hibernate.properties not found
+2019-11-24 15:18:39,392 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-24 15:18:39,482 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-24 15:18:39,924 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-24 15:18:40,090 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'weChatAccountConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'wechat.templateId' in value "${wechat.templateId}"
+2019-11-24 15:18:40,103 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-24 15:18:40,106 - HikariPool-1 - Shutdown initiated...
+2019-11-24 15:18:40,111 - HikariPool-1 - Shutdown completed.
+2019-11-24 15:18:40,112 - Stopping service [Tomcat]
+2019-11-24 15:18:40,119 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-11-24 15:23:41,098 - Starting DishsellApplication on chenyonghuandeMacBook-Pro.local with PID 5406 (started by cyh in /Users/cyh/Documents/code/java/java项目/dishsell)
+2019-11-24 15:23:41,099 - No active profile set, falling back to default profiles: default
+2019-11-24 15:23:41,139 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2019-11-24 15:23:41,670 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-24 15:23:41,671 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-24 15:23:41,746 - Finished Spring Data repository scanning in 68ms. Found 5 repository interfaces.
+2019-11-24 15:23:41,758 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-24 15:23:41,759 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-24 15:23:41,778 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.OrderDetailRepository.
+2019-11-24 15:23:41,778 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.OrderMasterRepository.
+2019-11-24 15:23:41,779 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.ProductCategoryRepository.
+2019-11-24 15:23:41,779 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.ProductInfoRepository.
+2019-11-24 15:23:41,779 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.SellerInfoRepository.
+2019-11-24 15:23:41,779 - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-11-24 15:23:42,068 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7c96a12f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-24 15:23:42,426 - Tomcat initialized with port(s): 8080 (http)
+2019-11-24 15:23:42,437 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-24 15:23:42,445 - Starting service [Tomcat]
+2019-11-24 15:23:42,445 - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-11-24 15:23:42,548 - Initializing Spring embedded WebApplicationContext
+2019-11-24 15:23:42,548 - Root WebApplicationContext: initialization completed in 1420 ms
+2019-11-24 15:23:42,681 - HikariPool-1 - Starting...
+2019-11-24 15:23:42,764 - HikariPool-1 - Start completed.
+2019-11-24 15:23:42,816 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-24 15:23:42,869 - HHH000412: Hibernate Core {5.3.9.Final}
+2019-11-24 15:23:42,870 - HHH000206: hibernate.properties not found
+2019-11-24 15:23:42,967 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-24 15:23:43,061 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-24 15:23:43,492 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-24 15:23:43,660 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'weChatAccountConfig': Unsatisfied dependency expressed through field 'templateId'; nested exception is org.springframework.beans.ConversionNotSupportedException: Failed to convert value of type 'java.lang.String' to required type 'java.util.Map'; nested exception is java.lang.IllegalStateException: Cannot convert value of type 'java.lang.String' to required type 'java.util.Map': no matching editors or conversion strategy found
+2019-11-24 15:23:43,672 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-24 15:23:43,674 - HikariPool-1 - Shutdown initiated...
+2019-11-24 15:23:43,679 - HikariPool-1 - Shutdown completed.
+2019-11-24 15:23:43,680 - Stopping service [Tomcat]
+2019-11-24 15:23:43,687 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-11-24 15:24:21,327 - Starting DishsellApplication on chenyonghuandeMacBook-Pro.local with PID 5422 (started by cyh in /Users/cyh/Documents/code/java/java项目/dishsell)
+2019-11-24 15:24:21,328 - No active profile set, falling back to default profiles: default
+2019-11-24 15:24:21,364 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2019-11-24 15:24:21,952 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-24 15:24:21,952 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-24 15:24:22,034 - Finished Spring Data repository scanning in 75ms. Found 5 repository interfaces.
+2019-11-24 15:24:22,044 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-24 15:24:22,045 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-24 15:24:22,064 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.OrderDetailRepository.
+2019-11-24 15:24:22,064 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.OrderMasterRepository.
+2019-11-24 15:24:22,065 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.ProductCategoryRepository.
+2019-11-24 15:24:22,065 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.ProductInfoRepository.
+2019-11-24 15:24:22,065 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.SellerInfoRepository.
+2019-11-24 15:24:22,065 - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-11-24 15:24:22,384 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$329e1aad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-24 15:24:22,747 - Tomcat initialized with port(s): 8080 (http)
+2019-11-24 15:24:22,758 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-24 15:24:22,767 - Starting service [Tomcat]
+2019-11-24 15:24:22,767 - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-11-24 15:24:22,873 - Initializing Spring embedded WebApplicationContext
+2019-11-24 15:24:22,873 - Root WebApplicationContext: initialization completed in 1523 ms
+2019-11-24 15:24:23,011 - HikariPool-1 - Starting...
+2019-11-24 15:24:23,094 - HikariPool-1 - Start completed.
+2019-11-24 15:24:23,152 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-24 15:24:23,196 - HHH000412: Hibernate Core {5.3.9.Final}
+2019-11-24 15:24:23,197 - HHH000206: hibernate.properties not found
+2019-11-24 15:24:23,299 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-24 15:24:23,398 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-24 15:24:23,855 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-24 15:24:24,046 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'weChatAccountConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'wechat.templateId' in value "${wechat.templateId}"
+2019-11-24 15:24:24,058 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-24 15:24:24,062 - HikariPool-1 - Shutdown initiated...
+2019-11-24 15:24:24,067 - HikariPool-1 - Shutdown completed.
+2019-11-24 15:24:24,067 - Stopping service [Tomcat]
+2019-11-24 15:24:24,075 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-11-24 15:31:19,694 - Starting DishsellApplication on chenyonghuandeMacBook-Pro.local with PID 5598 (started by cyh in /Users/cyh/Documents/code/java/java项目/dishsell)
+2019-11-24 15:31:19,695 - No active profile set, falling back to default profiles: default
+2019-11-24 15:31:19,718 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2019-11-24 15:31:20,241 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-24 15:31:20,241 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-24 15:31:20,317 - Finished Spring Data repository scanning in 67ms. Found 5 repository interfaces.
+2019-11-24 15:31:20,329 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-24 15:31:20,330 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-24 15:31:20,357 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.OrderDetailRepository.
+2019-11-24 15:31:20,358 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.OrderMasterRepository.
+2019-11-24 15:31:20,358 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.ProductCategoryRepository.
+2019-11-24 15:31:20,358 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.ProductInfoRepository.
+2019-11-24 15:31:20,359 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.SellerInfoRepository.
+2019-11-24 15:31:20,359 - Finished Spring Data repository scanning in 20ms. Found 0 repository interfaces.
+2019-11-24 15:31:20,651 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6a1a1f06] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-24 15:31:21,016 - Tomcat initialized with port(s): 8080 (http)
+2019-11-24 15:31:21,027 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-24 15:31:21,035 - Starting service [Tomcat]
+2019-11-24 15:31:21,035 - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-11-24 15:31:21,142 - Initializing Spring embedded WebApplicationContext
+2019-11-24 15:31:21,142 - Root WebApplicationContext: initialization completed in 1424 ms
+2019-11-24 15:31:21,286 - HikariPool-1 - Starting...
+2019-11-24 15:31:21,375 - HikariPool-1 - Start completed.
+2019-11-24 15:31:21,427 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-24 15:31:21,481 - HHH000412: Hibernate Core {5.3.9.Final}
+2019-11-24 15:31:21,482 - HHH000206: hibernate.properties not found
+2019-11-24 15:31:21,583 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-24 15:31:21,681 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-24 15:31:22,119 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-24 15:31:22,309 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'weChatAccountConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'wechat.templateId' in value "${wechat.templateId}"
+2019-11-24 15:31:22,328 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-24 15:31:22,332 - HikariPool-1 - Shutdown initiated...
+2019-11-24 15:31:22,338 - HikariPool-1 - Shutdown completed.
+2019-11-24 15:31:22,339 - Stopping service [Tomcat]
+2019-11-24 15:31:22,347 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-11-24 15:31:44,116 - Starting DishsellApplication on chenyonghuandeMacBook-Pro.local with PID 5609 (started by cyh in /Users/cyh/Documents/code/java/java项目/dishsell)
+2019-11-24 15:31:44,117 - No active profile set, falling back to default profiles: default
+2019-11-24 15:31:44,154 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2019-11-24 15:31:44,635 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-24 15:31:44,636 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-24 15:31:44,720 - Finished Spring Data repository scanning in 77ms. Found 5 repository interfaces.
+2019-11-24 15:31:44,732 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-24 15:31:44,732 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-24 15:31:44,750 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.OrderDetailRepository.
+2019-11-24 15:31:44,750 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.OrderMasterRepository.
+2019-11-24 15:31:44,750 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.ProductCategoryRepository.
+2019-11-24 15:31:44,751 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.ProductInfoRepository.
+2019-11-24 15:31:44,751 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.SellerInfoRepository.
+2019-11-24 15:31:44,751 - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-11-24 15:31:45,020 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5dd686c4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-24 15:31:45,367 - Tomcat initialized with port(s): 8080 (http)
+2019-11-24 15:31:45,379 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-24 15:31:45,388 - Starting service [Tomcat]
+2019-11-24 15:31:45,388 - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-11-24 15:31:45,497 - Initializing Spring embedded WebApplicationContext
+2019-11-24 15:31:45,497 - Root WebApplicationContext: initialization completed in 1356 ms
+2019-11-24 15:31:45,628 - HikariPool-1 - Starting...
+2019-11-24 15:31:45,710 - HikariPool-1 - Start completed.
+2019-11-24 15:31:45,763 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-24 15:31:45,819 - HHH000412: Hibernate Core {5.3.9.Final}
+2019-11-24 15:31:45,820 - HHH000206: hibernate.properties not found
+2019-11-24 15:31:45,918 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-24 15:31:46,010 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-24 15:31:46,457 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-24 15:31:47,516 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-24 15:31:47,553 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-24 15:31:47,913 - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-24 15:31:47,932 - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2019-11-24 15:31:47,935 - Started DishsellApplication in 4.117 seconds (JVM running for 9.542)
+2019-11-24 15:32:06,635 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-24 15:32:06,635 - Initializing Servlet 'dispatcherServlet'
+2019-11-24 15:32:06,645 - Completed initialization in 10 ms
+2019-11-24 15:32:06,687 - 【登录校验】Cookie中查不到token
+2019-11-24 15:32:43,587 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-24 15:32:43,604 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-24 15:32:43,609 - HikariPool-1 - Shutdown initiated...
+2019-11-24 15:32:43,619 - HikariPool-1 - Shutdown completed.
+2019-11-24 15:32:50,250 - Starting DishsellApplication on chenyonghuandeMacBook-Pro.local with PID 5638 (started by cyh in /Users/cyh/Documents/code/java/java项目/dishsell)
+2019-11-24 15:32:50,251 - No active profile set, falling back to default profiles: default
+2019-11-24 15:32:50,296 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2019-11-24 15:32:50,803 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-24 15:32:50,803 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-24 15:32:50,878 - Finished Spring Data repository scanning in 67ms. Found 5 repository interfaces.
+2019-11-24 15:32:50,890 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-24 15:32:50,891 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-24 15:32:50,906 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.OrderDetailRepository.
+2019-11-24 15:32:50,907 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.OrderMasterRepository.
+2019-11-24 15:32:50,907 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.ProductCategoryRepository.
+2019-11-24 15:32:50,908 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.ProductInfoRepository.
+2019-11-24 15:32:50,908 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.SellerInfoRepository.
+2019-11-24 15:32:50,908 - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-11-24 15:32:51,194 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a24d33cd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-24 15:32:51,537 - Tomcat initialized with port(s): 8080 (http)
+2019-11-24 15:32:51,550 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-24 15:32:51,559 - Starting service [Tomcat]
+2019-11-24 15:32:51,559 - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-11-24 15:32:51,660 - Initializing Spring embedded WebApplicationContext
+2019-11-24 15:32:51,660 - Root WebApplicationContext: initialization completed in 1380 ms
+2019-11-24 15:32:51,794 - HikariPool-1 - Starting...
+2019-11-24 15:32:51,877 - HikariPool-1 - Start completed.
+2019-11-24 15:32:51,927 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-24 15:32:51,981 - HHH000412: Hibernate Core {5.3.9.Final}
+2019-11-24 15:32:51,982 - HHH000206: hibernate.properties not found
+2019-11-24 15:32:52,079 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-24 15:32:52,167 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-24 15:32:52,614 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-24 15:32:53,642 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-24 15:32:53,677 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-24 15:32:54,034 - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-24 15:32:54,051 - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2019-11-24 15:32:54,054 - Started DishsellApplication in 4.099 seconds (JVM running for 9.553)
+2019-11-24 15:33:10,922 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-24 15:33:10,923 - Initializing Servlet 'dispatcherServlet'
+2019-11-24 15:33:10,932 - Completed initialization in 9 ms
+2019-11-24 15:33:10,965 - 【登录校验】Cookie中查不到token
+2019-11-24 15:33:10,986 - [微信网页授权] 获取code, result = https://open.weixin.qq.com/connect/qrconnect?appid=wx94681a8f915ce849&redirect_uri=http%3A%2F%2Flocalhost%3A8080%2Fsell%2Fwechat%2FqrUserInfo&response_type=code&scope=snsapi_login&state=http%3A%2F%2Flocalhost%3A8080%2Fsell%2Fseller%2Flogin#wechat_redirect
+2019-11-24 15:35:00,936 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-24 15:35:00,964 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-24 15:35:00,969 - HikariPool-1 - Shutdown initiated...
+2019-11-24 15:35:00,978 - HikariPool-1 - Shutdown completed.
+2019-11-24 15:35:08,729 - Starting DishsellApplication on chenyonghuandeMacBook-Pro.local with PID 5700 (started by cyh in /Users/cyh/Documents/code/java/java项目/dishsell)
+2019-11-24 15:35:08,729 - No active profile set, falling back to default profiles: default
+2019-11-24 15:35:08,765 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2019-11-24 15:35:09,263 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-24 15:35:09,263 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-24 15:35:09,334 - Finished Spring Data repository scanning in 64ms. Found 5 repository interfaces.
+2019-11-24 15:35:09,345 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-24 15:35:09,346 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-24 15:35:09,362 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.OrderDetailRepository.
+2019-11-24 15:35:09,363 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.OrderMasterRepository.
+2019-11-24 15:35:09,363 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.ProductCategoryRepository.
+2019-11-24 15:35:09,363 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.ProductInfoRepository.
+2019-11-24 15:35:09,364 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.SellerInfoRepository.
+2019-11-24 15:35:09,364 - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-11-24 15:35:09,640 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$55f36e54] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-24 15:35:09,890 - Tomcat initialized with port(s): 8080 (http)
+2019-11-24 15:35:09,901 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-24 15:35:09,909 - Starting service [Tomcat]
+2019-11-24 15:35:09,909 - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-11-24 15:35:10,018 - Initializing Spring embedded WebApplicationContext
+2019-11-24 15:35:10,019 - Root WebApplicationContext: initialization completed in 1266 ms
+2019-11-24 15:35:10,145 - HikariPool-1 - Starting...
+2019-11-24 15:35:10,223 - HikariPool-1 - Start completed.
+2019-11-24 15:35:10,268 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-24 15:35:10,327 - HHH000412: Hibernate Core {5.3.9.Final}
+2019-11-24 15:35:10,328 - HHH000206: hibernate.properties not found
+2019-11-24 15:35:10,418 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-24 15:35:10,510 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-24 15:35:10,953 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-24 15:35:11,820 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-24 15:35:11,849 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-24 15:35:12,136 - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-24 15:35:12,152 - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2019-11-24 15:35:12,155 - Started DishsellApplication in 3.72 seconds (JVM running for 9.148)
+2019-11-24 15:35:53,261 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-24 15:35:53,262 - Initializing Servlet 'dispatcherServlet'
+2019-11-24 15:35:53,273 - Completed initialization in 11 ms
+2019-11-24 15:35:53,358 - HHH000397: Using ASTQueryTranslatorFactory
+2019-11-24 15:44:48,438 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-24 15:44:48,464 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-24 15:44:48,467 - HikariPool-1 - Shutdown initiated...
+2019-11-24 15:44:48,474 - HikariPool-1 - Shutdown completed.

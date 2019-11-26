@@ -1,0 +1,301 @@
+2019-11-26 03:54:51,834 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h32s672ms).
+2019-11-26 07:55:25,143 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h33s313ms).
+2019-11-26 08:26:27,406 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=31m2s263ms).
+2019-11-26 08:27:18,541 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-26 08:27:18,688 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-26 08:27:18,706 - HikariPool-1 - Shutdown initiated...
+2019-11-26 08:27:18,717 - HikariPool-1 - Shutdown completed.
+2019-11-26 08:37:35,308 - Starting CategoryMapperTest on chenyonghuandeMacBook-Pro.local with PID 14430 (started by cyh in /Users/cyh/Documents/code/java/java项目/dishsell)
+2019-11-26 08:37:35,309 - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-11-26 08:37:35,309 - No active profile set, falling back to default profiles: default
+2019-11-26 08:37:36,056 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-26 08:37:36,058 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-26 08:37:36,257 - Finished Spring Data repository scanning in 190ms. Found 5 repository interfaces.
+2019-11-26 08:37:36,281 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-26 08:37:36,282 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-26 08:37:36,302 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.OrderDetailRepository.
+2019-11-26 08:37:36,303 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.OrderMasterRepository.
+2019-11-26 08:37:36,303 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.ProductCategoryRepository.
+2019-11-26 08:37:36,304 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.ProductInfoRepository.
+2019-11-26 08:37:36,304 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.SellerInfoRepository.
+2019-11-26 08:37:36,304 - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-11-26 08:37:36,762 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$884cd7d9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-26 08:37:36,971 - HikariPool-1 - Starting...
+2019-11-26 08:37:37,153 - HikariPool-1 - Start completed.
+2019-11-26 08:37:37,241 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-26 08:37:37,340 - HHH000412: Hibernate Core {5.3.9.Final}
+2019-11-26 08:37:37,342 - HHH000206: hibernate.properties not found
+2019-11-26 08:37:37,522 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-26 08:37:37,685 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-26 08:37:38,363 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-26 08:37:40,052 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-26 08:37:40,113 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-26 08:37:40,811 - Started CategoryMapperTest in 10.973 seconds (JVM running for 11.933)
+2019-11-26 08:37:40,999 - ==>  Preparing: insert into product_category (category_name, category_type) values (?, ?) 
+2019-11-26 08:37:41,038 - ==> Parameters: 奶茶系列(String), 102(Integer)
+2019-11-26 08:37:41,044 - <==    Updates: 1
+2019-11-26 08:37:41,053 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-26 08:37:41,069 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-26 08:37:41,071 - HikariPool-1 - Shutdown initiated...
+2019-11-26 08:37:41,079 - HikariPool-1 - Shutdown completed.
+2019-11-26 08:38:26,245 - Starting CategoryMapperTest on chenyonghuandeMacBook-Pro.local with PID 14448 (started by cyh in /Users/cyh/Documents/code/java/java项目/dishsell)
+2019-11-26 08:38:26,246 - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-11-26 08:38:26,246 - No active profile set, falling back to default profiles: default
+2019-11-26 08:38:26,890 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-26 08:38:26,892 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-26 08:38:27,049 - Finished Spring Data repository scanning in 149ms. Found 5 repository interfaces.
+2019-11-26 08:38:27,061 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-26 08:38:27,063 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-26 08:38:27,087 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.OrderDetailRepository.
+2019-11-26 08:38:27,088 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.OrderMasterRepository.
+2019-11-26 08:38:27,088 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.ProductCategoryRepository.
+2019-11-26 08:38:27,089 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.ProductInfoRepository.
+2019-11-26 08:38:27,090 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.SellerInfoRepository.
+2019-11-26 08:38:27,090 - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-11-26 08:38:27,553 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$51a5c850] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-26 08:38:27,758 - HikariPool-1 - Starting...
+2019-11-26 08:38:27,914 - HikariPool-1 - Start completed.
+2019-11-26 08:38:28,004 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-26 08:38:28,081 - HHH000412: Hibernate Core {5.3.9.Final}
+2019-11-26 08:38:28,086 - HHH000206: hibernate.properties not found
+2019-11-26 08:38:28,218 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-26 08:38:28,356 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-26 08:38:29,031 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-26 08:38:30,585 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-26 08:38:30,644 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-26 08:38:31,341 - Started CategoryMapperTest in 10.459 seconds (JVM running for 11.315)
+2019-11-26 08:38:31,518 - ==>  Preparing: select * from product_category where category_type = ? 
+2019-11-26 08:38:31,562 - ==> Parameters: 102(Integer)
+2019-11-26 08:38:31,591 - <==    Columns: category_id, category_name, category_type, create_time, update_time
+2019-11-26 08:38:31,592 - <==        Row: 12, 奶茶系列, 102, 2019-11-26 08:37:41, 2019-11-26 08:37:41
+2019-11-26 08:38:31,594 - <==      Total: 1
+2019-11-26 08:38:31,603 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-26 08:38:31,619 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-26 08:38:31,622 - HikariPool-1 - Shutdown initiated...
+2019-11-26 08:38:31,629 - HikariPool-1 - Shutdown completed.
+2019-11-26 08:39:07,323 - Starting CategoryMapperTest on chenyonghuandeMacBook-Pro.local with PID 14474 (started by cyh in /Users/cyh/Documents/code/java/java项目/dishsell)
+2019-11-26 08:39:07,323 - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-11-26 08:39:07,323 - No active profile set, falling back to default profiles: default
+2019-11-26 08:39:07,984 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-26 08:39:07,986 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-26 08:39:08,160 - Finished Spring Data repository scanning in 165ms. Found 5 repository interfaces.
+2019-11-26 08:39:08,175 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-26 08:39:08,176 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-26 08:39:08,197 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.OrderDetailRepository.
+2019-11-26 08:39:08,198 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.OrderMasterRepository.
+2019-11-26 08:39:08,199 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.ProductCategoryRepository.
+2019-11-26 08:39:08,200 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.ProductInfoRepository.
+2019-11-26 08:39:08,201 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.SellerInfoRepository.
+2019-11-26 08:39:08,201 - Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+2019-11-26 08:39:08,663 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$51a5c850] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-26 08:39:08,865 - HikariPool-1 - Starting...
+2019-11-26 08:39:09,028 - HikariPool-1 - Start completed.
+2019-11-26 08:39:09,111 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-26 08:39:09,182 - HHH000412: Hibernate Core {5.3.9.Final}
+2019-11-26 08:39:09,184 - HHH000206: hibernate.properties not found
+2019-11-26 08:39:09,329 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-26 08:39:09,452 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-26 08:39:10,069 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-26 08:39:11,602 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-26 08:39:11,652 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-26 08:39:12,318 - Started CategoryMapperTest in 10.422 seconds (JVM running for 11.281)
+2019-11-26 08:39:12,479 - ==>  Preparing: select * from product_category where category_name = ? 
+2019-11-26 08:39:12,530 - ==> Parameters: 甜品(String)
+2019-11-26 08:39:12,557 - <==    Columns: category_id, category_name, category_type, create_time, update_time
+2019-11-26 08:39:12,558 - <==        Row: 10, 甜品, 8, 2019-11-22 16:10:45, 2019-11-22 16:10:45
+2019-11-26 08:39:12,561 - <==        Row: 11, 甜品, 101, 2019-11-25 16:50:52, 2019-11-26 08:31:35
+2019-11-26 08:39:12,561 - <==      Total: 2
+2019-11-26 08:39:12,569 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-26 08:39:12,581 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-26 08:39:12,584 - HikariPool-1 - Shutdown initiated...
+2019-11-26 08:39:12,591 - HikariPool-1 - Shutdown completed.
+2019-11-26 08:39:43,585 - Starting CategoryMapperTest on chenyonghuandeMacBook-Pro.local with PID 14486 (started by cyh in /Users/cyh/Documents/code/java/java项目/dishsell)
+2019-11-26 08:39:43,585 - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-11-26 08:39:43,588 - No active profile set, falling back to default profiles: default
+2019-11-26 08:39:44,232 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-26 08:39:44,234 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-26 08:39:44,417 - Finished Spring Data repository scanning in 175ms. Found 5 repository interfaces.
+2019-11-26 08:39:44,432 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-26 08:39:44,433 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-26 08:39:44,453 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.OrderDetailRepository.
+2019-11-26 08:39:44,453 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.OrderMasterRepository.
+2019-11-26 08:39:44,454 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.ProductCategoryRepository.
+2019-11-26 08:39:44,455 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.ProductInfoRepository.
+2019-11-26 08:39:44,455 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.SellerInfoRepository.
+2019-11-26 08:39:44,455 - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2019-11-26 08:39:44,924 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$25cb2d66] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-26 08:39:45,118 - HikariPool-1 - Starting...
+2019-11-26 08:39:45,273 - HikariPool-1 - Start completed.
+2019-11-26 08:39:45,356 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-26 08:39:45,439 - HHH000412: Hibernate Core {5.3.9.Final}
+2019-11-26 08:39:45,440 - HHH000206: hibernate.properties not found
+2019-11-26 08:39:45,581 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-26 08:39:45,718 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-26 08:39:46,435 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-26 08:39:48,065 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-26 08:39:48,121 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-26 08:39:48,881 - Started CategoryMapperTest in 10.674 seconds (JVM running for 11.545)
+2019-11-26 08:39:49,056 - ==>  Preparing: update product_category set category_name = ? where category_type = ? 
+2019-11-26 08:39:49,098 - ==> Parameters: 奶茶系列(String), 101(Integer)
+2019-11-26 08:39:49,100 - <==    Updates: 1
+2019-11-26 08:39:49,108 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-26 08:39:49,133 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-26 08:39:49,136 - HikariPool-1 - Shutdown initiated...
+2019-11-26 08:39:49,144 - HikariPool-1 - Shutdown completed.
+2019-11-26 08:40:13,378 - Starting CategoryMapperTest on chenyonghuandeMacBook-Pro.local with PID 14497 (started by cyh in /Users/cyh/Documents/code/java/java项目/dishsell)
+2019-11-26 08:40:13,378 - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-11-26 08:40:13,379 - No active profile set, falling back to default profiles: default
+2019-11-26 08:40:14,013 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-26 08:40:14,015 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-26 08:40:14,177 - Finished Spring Data repository scanning in 155ms. Found 5 repository interfaces.
+2019-11-26 08:40:14,197 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-26 08:40:14,198 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-26 08:40:14,217 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.OrderDetailRepository.
+2019-11-26 08:40:14,218 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.OrderMasterRepository.
+2019-11-26 08:40:14,218 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.ProductCategoryRepository.
+2019-11-26 08:40:14,219 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.ProductInfoRepository.
+2019-11-26 08:40:14,219 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.SellerInfoRepository.
+2019-11-26 08:40:14,220 - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2019-11-26 08:40:14,637 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$884cd7d9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-26 08:40:14,827 - HikariPool-1 - Starting...
+2019-11-26 08:40:14,976 - HikariPool-1 - Start completed.
+2019-11-26 08:40:15,045 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-26 08:40:15,116 - HHH000412: Hibernate Core {5.3.9.Final}
+2019-11-26 08:40:15,117 - HHH000206: hibernate.properties not found
+2019-11-26 08:40:15,256 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-26 08:40:15,375 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-26 08:40:15,956 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-26 08:40:17,434 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-26 08:40:17,487 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-26 08:40:18,112 - Started CategoryMapperTest in 10.13 seconds (JVM running for 10.943)
+2019-11-26 08:40:18,279 - ==>  Preparing: update product_category set category_name = ? where category_type = ? 
+2019-11-26 08:40:18,317 - ==> Parameters: 奶茶(String), 102(Integer)
+2019-11-26 08:40:18,319 - <==    Updates: 1
+2019-11-26 08:40:18,325 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-26 08:40:18,346 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-26 08:40:18,348 - HikariPool-1 - Shutdown initiated...
+2019-11-26 08:40:18,355 - HikariPool-1 - Shutdown completed.
+2019-11-26 08:40:52,722 - Starting CategoryMapperTest on chenyonghuandeMacBook-Pro.local with PID 14513 (started by cyh in /Users/cyh/Documents/code/java/java项目/dishsell)
+2019-11-26 08:40:52,723 - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-11-26 08:40:52,723 - No active profile set, falling back to default profiles: default
+2019-11-26 08:40:53,390 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-26 08:40:53,392 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-26 08:40:53,577 - Finished Spring Data repository scanning in 177ms. Found 5 repository interfaces.
+2019-11-26 08:40:53,597 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-26 08:40:53,598 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-26 08:40:53,617 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.OrderDetailRepository.
+2019-11-26 08:40:53,617 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.OrderMasterRepository.
+2019-11-26 08:40:53,618 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.ProductCategoryRepository.
+2019-11-26 08:40:53,618 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.ProductInfoRepository.
+2019-11-26 08:40:53,619 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.SellerInfoRepository.
+2019-11-26 08:40:53,619 - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-11-26 08:40:54,059 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f7a7288f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-26 08:40:54,260 - HikariPool-1 - Starting...
+2019-11-26 08:40:54,422 - HikariPool-1 - Start completed.
+2019-11-26 08:40:54,507 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-26 08:40:54,583 - HHH000412: Hibernate Core {5.3.9.Final}
+2019-11-26 08:40:54,585 - HHH000206: hibernate.properties not found
+2019-11-26 08:40:54,718 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-26 08:40:54,853 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-26 08:40:55,459 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-26 08:40:56,986 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-26 08:40:57,036 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-26 08:40:57,700 - Started CategoryMapperTest in 10.416 seconds (JVM running for 11.257)
+2019-11-26 08:40:57,889 - ==>  Preparing: delete from product_category where category_type = ? 
+2019-11-26 08:40:57,930 - ==> Parameters: 102(Integer)
+2019-11-26 08:40:57,932 - <==    Updates: 1
+2019-11-26 08:40:57,940 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-26 08:40:57,955 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-26 08:40:57,958 - HikariPool-1 - Shutdown initiated...
+2019-11-26 08:40:57,965 - HikariPool-1 - Shutdown completed.
+2019-11-26 08:41:33,331 - Starting CategoryMapperTest on chenyonghuandeMacBook-Pro.local with PID 14584 (started by cyh in /Users/cyh/Documents/code/java/java项目/dishsell)
+2019-11-26 08:41:33,332 - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-11-26 08:41:33,332 - No active profile set, falling back to default profiles: default
+2019-11-26 08:41:33,941 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-26 08:41:33,943 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-26 08:41:34,117 - Finished Spring Data repository scanning in 166ms. Found 5 repository interfaces.
+2019-11-26 08:41:34,136 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-26 08:41:34,138 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-26 08:41:34,162 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.OrderDetailRepository.
+2019-11-26 08:41:34,163 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.OrderMasterRepository.
+2019-11-26 08:41:34,164 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.ProductCategoryRepository.
+2019-11-26 08:41:34,164 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.ProductInfoRepository.
+2019-11-26 08:41:34,165 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.SellerInfoRepository.
+2019-11-26 08:41:34,165 - Finished Spring Data repository scanning in 19ms. Found 0 repository interfaces.
+2019-11-26 08:41:34,612 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$884cd7d9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-26 08:41:34,818 - HikariPool-1 - Starting...
+2019-11-26 08:41:34,983 - HikariPool-1 - Start completed.
+2019-11-26 08:41:35,064 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-26 08:41:35,140 - HHH000412: Hibernate Core {5.3.9.Final}
+2019-11-26 08:41:35,142 - HHH000206: hibernate.properties not found
+2019-11-26 08:41:35,259 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-26 08:41:35,380 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-26 08:41:35,995 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-26 08:41:37,631 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-26 08:41:37,688 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-26 08:41:38,433 - Started CategoryMapperTest in 10.451 seconds (JVM running for 11.33)
+2019-11-26 08:41:38,597 - ==>  Preparing: insert into product_category (category_name, category_type) values (?, ?) 
+2019-11-26 08:41:38,640 - ==> Parameters: 奶茶系列(String), 102(Integer)
+2019-11-26 08:41:38,642 - <==    Updates: 1
+2019-11-26 08:41:38,651 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-26 08:41:38,667 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-26 08:41:38,670 - HikariPool-1 - Shutdown initiated...
+2019-11-26 08:41:38,677 - HikariPool-1 - Shutdown completed.
+2019-11-26 14:17:33,282 - Starting DishsellApplication on chenyonghuandeMacBook-Pro.local with PID 18383 (started by cyh in /Users/cyh/Documents/code/java/java项目/dishsell)
+2019-11-26 14:17:33,283 - No active profile set, falling back to default profiles: default
+2019-11-26 14:17:33,322 - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2019-11-26 14:17:33,941 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-26 14:17:33,942 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-26 14:17:34,018 - Finished Spring Data repository scanning in 65ms. Found 5 repository interfaces.
+2019-11-26 14:17:34,032 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-11-26 14:17:34,033 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-11-26 14:17:34,055 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.OrderDetailRepository.
+2019-11-26 14:17:34,055 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.OrderMasterRepository.
+2019-11-26 14:17:34,056 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.ProductCategoryRepository.
+2019-11-26 14:17:34,056 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.ProductInfoRepository.
+2019-11-26 14:17:34,056 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.edu.cn.dishsell.repository.SellerInfoRepository.
+2019-11-26 14:17:34,056 - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-11-26 14:17:34,362 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7348ecdc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-26 14:17:34,697 - Tomcat initialized with port(s): 8080 (http)
+2019-11-26 14:17:34,712 - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-26 14:17:34,722 - Starting service [Tomcat]
+2019-11-26 14:17:34,723 - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-11-26 14:17:34,844 - Initializing Spring embedded WebApplicationContext
+2019-11-26 14:17:34,844 - Root WebApplicationContext: initialization completed in 1532 ms
+2019-11-26 14:17:34,980 - HikariPool-1 - Starting...
+2019-11-26 14:17:35,063 - HikariPool-1 - Start completed.
+2019-11-26 14:17:35,101 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-11-26 14:17:35,145 - HHH000412: Hibernate Core {5.3.9.Final}
+2019-11-26 14:17:35,146 - HHH000206: hibernate.properties not found
+2019-11-26 14:17:35,269 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-11-26 14:17:35,378 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-11-26 14:17:35,850 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-11-26 14:17:36,859 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-26 14:17:36,905 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-11-26 14:17:37,379 - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-26 14:17:37,409 - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2019-11-26 14:17:37,412 - Started DishsellApplication in 4.453 seconds (JVM running for 10.011)
+2019-11-26 14:17:53,590 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-26 14:17:53,591 - Initializing Servlet 'dispatcherServlet'
+2019-11-26 14:17:53,600 - Completed initialization in 9 ms
+2019-11-26 14:17:53,654 - HHH000397: Using ASTQueryTranslatorFactory
+2019-11-26 14:52:02,806 - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-26 14:52:02,847 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-11-26 14:52:02,852 - HikariPool-1 - Shutdown initiated...
+2019-11-26 14:52:02,867 - HikariPool-1 - Shutdown completed.
